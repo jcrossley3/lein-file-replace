@@ -1,4 +1,4 @@
-(defproject lein-file-replace "0.1.0"
+(defproject lein-file-replace "0.1.1-SNAPSHOT"
   :description "Text replacement in files using regexes"
   :url "http://github.com/jcrossley3/lein-file-replace"
   :license {:name "Eclipse Public License"
