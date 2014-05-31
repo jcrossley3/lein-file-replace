@@ -6,6 +6,9 @@
   :eval-in-leiningen true
 
   :plugins [[lein-file-replace "0.1.0-SNAPSHOT"]]
+  :deploy-repositories [["releases" {:url "https://clojars.org/repo/" :creds :gpg}]]
+  :signing {:gpg-key "92439EF5"}
+  :pom-location "target"
 
   :release-tasks
   [["vcs" "assert-committed"]
