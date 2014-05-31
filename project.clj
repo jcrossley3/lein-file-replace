@@ -14,11 +14,7 @@
   [["vcs" "assert-committed"]
    ["change" "version" "leiningen.release/bump-version" "release"]
 
-   ;; This would probably be handy for most folks
    ["file-replace" "README.md" "lein-file-replace \"" "\"]" "version"]
-
-   ;; Keeps my :plugins current, but probably doesn't make sense for you
-   ["file-replace" "project.clj" "lein-file-replace \"" "\"]" "version"]
 
    ["vcs" "commit"]
    ["vcs" "tag"]
