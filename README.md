@@ -5,7 +5,7 @@ from a project map.
 
 ## Usage
 
-Put `[lein-file-replace "0.1.0-SNAPSHOT"]` into your `:plugins` vector.
+Put `[lein-file-replace "0.1.0"]` into your `:plugins` vector.
 
 Here's a dumb thing you could do:
 
