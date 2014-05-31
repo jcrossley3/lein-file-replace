@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
 
-  :plugins [[lein-file-replace "0.1.0-SNAPSHOT"]]
+  :plugins [[lein-file-replace "0.1.0"]]
   :deploy-repositories [["releases" {:url "https://clojars.org/repo/" :creds :gpg}]]
   :signing {:gpg-key "92439EF5"}
   :pom-location "target"
