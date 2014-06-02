@@ -17,7 +17,7 @@ your project:
 
     ["file-replace" "README.md" "your-project \"" "\"]" "version"]
 
-See this project's `project.clj` for a working example.
+See this project's [project.clj](blob/master/project.clj) for a working example.
 
 ## License
 
